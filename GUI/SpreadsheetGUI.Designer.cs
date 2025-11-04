@@ -11,7 +11,7 @@
 /// This file implements the Spreadsheet GUI with Window Forms.
 /// The Designer.cs file contains components config of the window forms gui.
 /// SpreadsheetGUI class includes event handling which is occured by user interaction.
-/// 
+/// </summary>
 
 using SS;
 
@@ -36,7 +36,7 @@ namespace GUI
             openToolStripMenuItem = new ToolStripMenuItem();
             saveToolStripMenuItem = new ToolStripMenuItem();
             closeToolStripMenuItem = new ToolStripMenuItem();
-            helpToolStripMenuItem = new Button();
+            helpToolStripMenuItem = new ToolStripMenuItem();
             panelTop = new TableLayoutPanel();
             label1 = new Label();
             CellNameBox = new TextBox();
@@ -85,7 +85,7 @@ namespace GUI
             newToolStripMenuItem.Name = "newToolStripMenuItem";
             newToolStripMenuItem.Size = new Size(205, 44);
             newToolStripMenuItem.Text = "New";
-            // newToolStripMenuItem.Click += newToolStripMenuItem_Click;
+            newToolStripMenuItem.Click += newToolStripMenuItem_Click;
             
             // 
             // openToolStripMenuItem
@@ -102,7 +102,7 @@ namespace GUI
             saveToolStripMenuItem.Size = new Size(205, 44);
             saveToolStripMenuItem.Text = "Save";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
-            // 
+            
             // 
             // closeToolStripMenuItem
             // 
@@ -111,17 +111,14 @@ namespace GUI
             closeToolStripMenuItem.Text = "Close";
             closeToolStripMenuItem.Click += closeToolStripMenuItem_Click;
             
-         // 
-            // Help
             // 
-            helpToolStripMenuItem.BackColor = SystemColors.GradientInactiveCaption;
-            helpToolStripMenuItem.Location = new Point(46, 2);
-            helpToolStripMenuItem.Name = "Help";
-            helpToolStripMenuItem.Size = new Size(40, 23);
-            helpToolStripMenuItem.TabIndex = 2;
+            // helpToolStripMenuItem
+            // 
+            helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            helpToolStripMenuItem.Size = new Size(84, 36);
             helpToolStripMenuItem.Text = "Help";
-            helpToolStripMenuItem.UseVisualStyleBackColor = false;
-            helpToolStripMenuItem.Click += helpButton_Click;
+            helpToolStripMenuItem.Click += helpToolStripMenuItem_Click;
+            
             // 
             // panelTop
             // 
