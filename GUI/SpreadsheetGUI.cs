@@ -1,3 +1,18 @@
+/// <summary>
+/// /// Author:    Katherine Jang, Chloe Shin
+/// Partner:   Katherine Jang, Chloe Shin 
+/// Date:      3/11/2025
+/// Course:    CS 3500, University of Utah, School of Computing 
+/// Copyright: CS 3500 and Katherine Jang - This work may not be copied for use in Academic Coursework. 
+/// 
+/// I, Katherine Jang , certify that I wrote this code from scratch and did not copy it in part or whole from
+/// another source.  All references used in the completion of the assignment are cited in my README file. 
+/// 
+/// This file implements the Spreadsheet GUI with Window Forms.
+/// SpreadsheetGUI class includes event handling which is occured by user interaction.
+/// 
+
+/// </summary>
 using SpreadsheetUtilities;
 using SS;
 using System.Text.RegularExpressions;
