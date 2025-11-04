@@ -36,7 +36,7 @@ namespace GUI
             openToolStripMenuItem = new ToolStripMenuItem();
             saveToolStripMenuItem = new ToolStripMenuItem();
             closeToolStripMenuItem = new ToolStripMenuItem();
-            helpToolStripMenuItem = new ToolStripMenuItem();
+            helpToolStripMenuItem = new Button();
             panelTop = new TableLayoutPanel();
             label1 = new Label();
             CellNameBox = new TextBox();
@@ -85,7 +85,7 @@ namespace GUI
             newToolStripMenuItem.Name = "newToolStripMenuItem";
             newToolStripMenuItem.Size = new Size(205, 44);
             newToolStripMenuItem.Text = "New";
-            newToolStripMenuItem.Click += newToolStripMenuItem_Click;
+            // newToolStripMenuItem.Click += newToolStripMenuItem_Click;
             
             // 
             // openToolStripMenuItem
@@ -102,7 +102,7 @@ namespace GUI
             saveToolStripMenuItem.Size = new Size(205, 44);
             saveToolStripMenuItem.Text = "Save";
             saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
-            
+            // 
             // 
             // closeToolStripMenuItem
             // 
@@ -111,14 +111,17 @@ namespace GUI
             closeToolStripMenuItem.Text = "Close";
             closeToolStripMenuItem.Click += closeToolStripMenuItem_Click;
             
+         // 
+            // Help
             // 
-            // helpToolStripMenuItem
-            // 
-            helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            helpToolStripMenuItem.Size = new Size(78, 36);
+            helpToolStripMenuItem.BackColor = SystemColors.GradientInactiveCaption;
+            helpToolStripMenuItem.Location = new Point(46, 2);
+            helpToolStripMenuItem.Name = "Help";
+            helpToolStripMenuItem.Size = new Size(40, 23);
+            helpToolStripMenuItem.TabIndex = 2;
             helpToolStripMenuItem.Text = "Help";
-            helpToolStripMenuItem.Click += helpToolStripMenuItem_Click;
-            
+            helpToolStripMenuItem.UseVisualStyleBackColor = false;
+            helpToolStripMenuItem.Click += helpButton_Click;
             // 
             // panelTop
             // 
