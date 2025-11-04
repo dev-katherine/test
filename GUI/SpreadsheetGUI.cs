@@ -400,6 +400,34 @@ namespace GUI
         /// </summary>
         private void label3_Click(object sender, EventArgs e) { }
 
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
 
+        }
+
+        private void saveToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void spreadsheetPanel1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CellNameBox_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void spreadsheetPanel1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CellNameBox_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

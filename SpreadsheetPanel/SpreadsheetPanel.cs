@@ -40,6 +40,20 @@ namespace SS
         private DrawingPanel drawingPanel;
         private HScrollBar hScroll;
         private VScrollBar vScroll;
+        //
+        private SS.SpreadsheetPanel spreadsheetPanel1;
+        private FlowLayoutPanel topBar;  
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem newToolStripMenuItem;
+        private ToolStripMenuItem openToolStripMenuItem;
+        private ToolStripMenuItem saveToolStripMenuItem;
+        private ToolStripMenuItem closeToolStripMenuItem;
+        private ToolStripMenuItem helpToolStripMenuItem;
+
+        private Label label1, label2, label3;
+        private TextBox CellNameBox, CellValueBox, CellContentBox;
+        private Button EnterButton;
 
         // These constants control the layout of the spreadsheet grid.  The height and
         // width measurements are in pixels.
